@@ -90,7 +90,7 @@ h2 {
 
 /* Skills & Projects */
 
-#Skills ul,
+#skills ul,
 #Projects ul {
   min-height: 50px;
 }
@@ -117,6 +117,8 @@ h2 {
   background-color: #1d4ed8;
 }
 
+/* Skills Styling */
+
 #skills ul {
   display: flex;
   flex-wrap: wrap;
@@ -131,6 +133,8 @@ h2 {
   border-radius: 8px;
   font-weight: bold;
 }
+
+/* Message Form */
 
 #leave-message form {
   display: flex;
@@ -163,6 +167,16 @@ h2 {
 
 #messages li {
   margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f2937;
+  color: white;
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
